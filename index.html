@@ -3,12 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./src/script.js" defer></script>
     <link rel="stylesheet" href="/styles/output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
     <title>Crypto Dashboard</title>
 </head>
-<body class="bg-black">
-    <div>
-        <p>tell me tell me tell me</p>
+<body>
+    <div  class="bg-[#140C44] w-full  h-[174px] flex justify-between">
+        <div>
+            <h1 class="p-4 text-2xl sm:text-3xl md:text-4xl text-[#FFFFFF] " style="font-family: 'Irish Grover';">CryptoInfo</h1>
+            
+        </div>
+        <!-- container div -->
+        <div class="h-[174px] w-[563px]">           
+            <!-- div for search bar and search icon -->
+            <div class="w-[360px] h-[56px] bg-[#6750A4] rounded-2xl border-white border-2 mt-4 flex">
+                <input type="text" class="h-full w-full">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.0" stroke="currentColor" class="size-8 mt-2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                </svg>
+            </div>
+            <!-- div for navbar -->
+            <div class="flex w-[360px] space-x-5 mt-4 text-white underline text-2xl">
+                <div>Home</div>
+                <div>News</div>
+                <div>About</div>
+            </div>
+        </div>
+    </div>
+    <div id="main_content" class="flex justify-center items-center mt-12">
+
     </div>
 </body>
 </html>
